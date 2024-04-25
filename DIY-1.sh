@@ -6,10 +6,10 @@
 sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # 2-添加PowerOff关机插件
-git clone https://github.com/WukongMaster/luci-app-poweroff.git package/luci-app-poweroff
+git clone https://github.com/JohnstonIrene/luci-app-poweroff.git package/luci-app-poweroff
 
 # 3-添加Opentomcat主题
-git clone https://github.com/WukongMaster/luci-theme-opentomcat.git package/luci-theme-opentomcat
+git clone https://github.com/JohnstonIrene/luci-theme-opentomcat.git package/luci-theme-opentomcat
 
 # 4-添加OpenClash插件
 sed -i '$a\src-git openclash https://github.com/vernesong/OpenClash' ./feeds.conf.default
